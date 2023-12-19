@@ -2,14 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  text-align: center;
+.header {
+  /* background-image: url("./assets/images/headerImg.jpg"); */
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-items: center;
 }
 
-#gallery {
-  /* display: none; */
+.Electrolize {
+  font-family: "Electrolize", sans-serif;
 }
 
-#gallery:hover {
-  display: block;
+.KoHo {
+  font-family: "KoHo", sans-serif;
+}
+
+.Rubik {
+  font-family: "Rubik", sans-serif;
+}
+
+.Raleway {
+  font-family: "Raleway", sans-serif;
+}
+.RampartOne {
+  font-family: "Rampart One", sans-serif;
+}
+
+.Rancho {
+  font-family: "Rancho", cursive;
 }
